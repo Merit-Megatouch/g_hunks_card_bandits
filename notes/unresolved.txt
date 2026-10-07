@@ -3,11 +3,6 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 GetLocation(unsigned char, char (&) [255]) | g_hunks_card_bandits.so
-IsScreenTouched() | g_hunks_card_bandits.so
 t_i_l() | g_hunks_card_bandits.so
 SystemClass::FlushKB() | g_hunks_card_bandits.so
 USBIO::FoundUSB() | g_hunks_card_bandits.so
-GameClass::GameClass() | g_hunks_card_bandits.so
-GameClass::~GameClass() | g_hunks_card_bandits.so
-typeinfo for GameClass | g_hunks_card_bandits.so
-voice_ramp_volume | g_hunks_card_bandits.so
